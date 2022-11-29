@@ -18,6 +18,9 @@
 Shoutout to https://shields.io/ for these wonderful badges.
 -->
 Text Sentiment Analysis in Python using Natural Language Processing (NLP) for Negative/Positive Content Predictions. Deployed on the Cloud using Streamlit on the Heroku Platform.
+## Demo 
+
+https://user-images.githubusercontent.com/71117423/204607255-6735a82b-a338-480d-bfdb-379661f0eb0d.mp4
 
 ## Installation : Setting up the Application Locally
 * Dependencies:
