@@ -19,11 +19,6 @@ Shoutout to https://shields.io/ for these wonderful badges.
 -->
 Text Sentiment Analysis in Python using Natural Language Processing (NLP) for Negative/Positive Content Predictions. Deployed on the Cloud using Streamlit on the Heroku Platform.
 
-**Winter of Code 2020 :** [View Project Ideas](https://github.com/dsc-iem/WoC-Project-Ideas#text-sentiment-analysis) or [View Issues to Solve](https://github.com/khanfarhan10/TextSentimentAnalysis/issues).
-
-## Web Application Demo
-[View the deployed WebApp on Heroku](http://sentimentproject.herokuapp.com/nlpsentiment).
-
 ## Installation : Setting up the Application Locally
 * Dependencies:
   * Run the command <code>pip install -r requirements.txt</code> on your cmd/python terminal.
@@ -37,7 +32,7 @@ Text Sentiment Analysis in Python using Natural Language Processing (NLP) for Ne
 A Guide to Creating Virtual Environments into Python and Using them Effectively.
 
 ## Clone the Text Sentiment Analysis Repo :
-Head over to [our github repository](https://github.com/khanfarhan10/TextSentimentAnalysis) ,fork the repo to your github account & clone the repository into your local machine.
+Head over to [our github repository]([https://github.com/khanfarhan10/TextSentimentAnalysis](https://github.com/Ryzxxl/SentimentAnalysisApp/) ,fork the repo to your github account & clone the repository into your local machine.
 
 ## Initial Setup
 
@@ -115,17 +110,11 @@ When you've obtained the requirements file, do the following with your Environme
 You are now happy to go forth coding and running your app with :
 <code>streamlit run TextSentimentApp.py</code>
 
-### Useful Links for Debugging :
-
-- https://github.com/ContinuumIO/anaconda-issues/issues/10822
-- https://dev.to/idrisrampurawala/setting-up-python-workspace-in-visual-studio-code-vscode-149p
-- https://dev.to/idrisrampurawala/flask-boilerplate-structuring-flask-app-3kcd
-
 # Voila Magic!
 
 If you have further issues/queries regarding the project, feel free to contact us : 
-- Farhan Hai Khan : njrfarhandasilva10@gmail.com
-- Tannistha Pal : paltannistha@gmail.com
+- Rakshit Khajuria : rakshitraina1234@gmail.com
+
 
 
 # Using the Streamlit App
@@ -151,41 +140,3 @@ python server.py
 ```
 ### Usage of Paraphrase and Summarization Utilities
 In the streamlit application, you can enter the text, and in the sidebar you can choose the task you want to perform, and hit the button for the corresponding inference.
-
-
-# CLI Tool Usage
-
-Please follow the steps to use the CLI Tool for text sentiment analysis and for summarization.
-
-1. Clone the repo:
-
-```
-git clone https://github.com/khanfarhan10/TextSentimentAnalysis.git
-```
-
-2. Change directory into the application folder:
-```
-cd TextSentimentAnalysis/TxT-CLI
-```
-
-3. Install the CLI through pip:
-```
-pip3 install .
-```
-
-4. Usage of the CLI:
-
-```
-TxT <option> <inputfilepath> <outputfilepath>
-```
-
-5. Options
-```
-<option> = "tsa" (Text Sentiment Analysis)
-         = "sum" (Summarization)
-         
-<inputfilepath> = Path to a csv file containing texts in the first column
-
-<outputfilepath> = Path to an empty csv file
-```
-
